@@ -3,14 +3,14 @@
 set -euo pipefail
 
 GOOS="linux" go build -ldflags='-s -w' -o bin/helper github.com/paketo-buildpacks/libjvm/cmd/helper
-GOOS="linux" go build -ldflags='-s -w' -o bin/main github.com/eddumelendez/microsoft-openjdk/cmd/main
+GOOS="linux" go build -ldflags='-s -w' -o bin/main github.com/paketo-buildpacks/microsoft-openjdk/cmd/main
 
 if [ "${STRIP:-false}" != "false" ]; then
   strip bin/helper bin/main
 fi
 
-if [ "${COMPRESS:-false}" != "false" ]; then
-  upx -q -9 bin/helper bin/main
+if [ "${COMPRESS:-none}" != "none" ]; then
+  $COMPRESS bin/helper bin/main
 fi
 
 ln -fs main bin/build

@@ -38,7 +38,7 @@ The buildpack will do the following if a JRE is requested:
 | `$BPL_JVM_THREAD_COUNT` | Configure the number of user threads at runtime.  Defaults to `250`.
 | `$JAVA_TOOL_OPTIONS` | Configure the JVM launch flags
 
-[bpv]: https://github.com/eddumelendez/microsoft-openjdk/releases
+[bpv]: https://github.com/paketo-buildpacks/microsoft-openjdk/releases
 
 ## Bindings
 The buildpack optionally accepts the following bindings:

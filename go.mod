@@ -1,4 +1,4 @@
-module github.com/eddumelendez/microsoft-openjdk
+module github.com/paketo-buildpacks/microsoft-openjdk
 
 go 1.15
 

@@ -18,13 +18,13 @@ api = "0.6"
 id       = "paketo-buildpacks/microsoft-openjdk"
 name     = "Paketo Microsoft OpenJDK Buildpack"
 version  = "{{.version}}"
-homepage = "https://github.com/eddumelendez/microsoft-openjdk"
+homepage = "https://github.com/paketo-buildpacks/microsoft-openjdk"
 description = "A Cloud Native Buildpack that provides the Microsoft OpenJDK implementations of JREs and JDKs"
 keywords    = ["java", "jvm", "jre", "jdk"]
 
 [[buildpack.licenses]]
 type = "Apache-2.0"
-uri  = "https://github.com/eddumelendez/microsoft-openjdk/blob/main/LICENSE"
+uri  = "https://github.com/paketo-buildpacks/microsoft-openjdk/blob/main/LICENSE"
 
 [[stacks]]
 id = "io.buildpacks.stacks.bionic"
