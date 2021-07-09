@@ -42,8 +42,9 @@ jobs:
                 YJ_VERSION: 5.0.0
             - uses: actions/checkout@v2
             - id: dependency
-              uses: docker://ghcr.io/paketo-buildpacks/actions/microsoft-openjdk-dependency:main
+              uses: docker://ghcr.io/paketo-buildpacks/actions/foojay-dependency:main
               with:
+                distro: microsoft
                 type: jdk
                 version: "11"
             - id: buildpack
