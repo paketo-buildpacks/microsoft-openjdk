@@ -20,30 +20,18 @@ dependencies:
 - name:            JDK 11
   id:              jdk
   version_pattern: "11\\.[\\d]+\\.[\\d]+"
-  uses:            docker://ghcr.io/paketo-buildpacks/actions/microsoft-openjdk-dependency:main
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/foojay-dependency:main
   with:
+    distro:  microsoft
     type:    jdk
-    version: "11"
-- name:            JRE 11
-  id:              jre
-  version_pattern: "11\\.[\\d]+\\.[\\d]+"
-  uses:            docker://ghcr.io/paketo-buildpacks/actions/microsoft-openjdk-dependency:main
-  with:
-    type:    jre
     version: "11"
 - name:            JDK 16
   id:              jdk
   version_pattern: "16\\.[\\d]+\\.[\\d]+"
-  uses:            docker://ghcr.io/paketo-buildpacks/actions/microsoft-openjdk-dependency:main
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/foojay-dependency:main
   with:
+    distro:  microsoft
     type:    jdk
-    version: "16"
-- name:            JRE 16
-  id:              jre
-  version_pattern: "16\\.[\\d]+\\.[\\d]+"
-  uses:            docker://ghcr.io/paketo-buildpacks/actions/microsoft-openjdk-dependency:main
-  with:
-    type:    jre
     version: "16"
 - id:   jvmkill
   uses: docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
