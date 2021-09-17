@@ -17,6 +17,14 @@ docker_credentials:
   password: ${{ secrets.JAVA_GCLOUD_SERVICE_ACCOUNT_KEY }}
 
 dependencies:
+- name:            JDK 8
+  id:              jdk
+  version_pattern: "8\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/adoptium-dependency:main
+  with:
+    implementation: hotspot
+    type:           jdk
+    version:        "[8,9)"
 - name:            JDK 11
   id:              jdk
   version_pattern: "11\\.[\\d]+\\.[\\d]+"
@@ -33,9 +41,3 @@ dependencies:
     distro:  microsoft
     type:    jdk
     version: "16"
-- id:   jvmkill
-  uses: docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
-  with:
-    owner:      cloudfoundry
-    repository: jvmkill
-    token:      ${{ secrets.JAVA_GITHUB_TOKEN }}

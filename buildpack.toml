@@ -78,6 +78,18 @@ launch      = true
 
 [[metadata.dependencies]]
 id      = "jdk"
+name    = "Adoptium JDK"
+version = "8.0.302"
+uri     = "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u302b08.tar.gz"
+sha256  = "cc13f274becf9dd5517b6be583632819dfd4dd81e524b5c1b4f406bdaf0e063a"
+stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
+
+  [[metadata.dependencies.licenses]]
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+
+[[metadata.dependencies]]
+id      = "jdk"
 name    = "Microsoft OpenJDK"
 version = "11.0.12"
 uri     = "https://aka.ms/download-jdk/microsoft-jdk-11.0.12.7.1-linux-x64.tar.gz"
@@ -99,18 +111,6 @@ stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
   [[metadata.dependencies.licenses]]
   type = "GPL-2.0 WITH Classpath-exception-2.0"
   uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
-
-[[metadata.dependencies]]
-id      = "jvmkill"
-name    = "JVMKill Agent"
-version = "1.16.0"
-uri     = "https://github.com/cloudfoundry/jvmkill/releases/download/v1.16.0.RELEASE/jvmkill-1.16.0-RELEASE.so"
-sha256  = "a3092627b082cb3cdbbe4b255d35687126aa604e6b613dcda33be9f7e1277162"
-stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
-
-  [[metadata.dependencies.licenses]]
-  type = "Apache-2.0"
-  uri  = "https://github.com/cloudfoundry/jvmkill/blob/main/LICENSE"
 
 [metadata]
 pre-package   = "scripts/build.sh"
