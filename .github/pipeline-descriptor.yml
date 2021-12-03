@@ -20,6 +20,7 @@ dependencies:
 - name:            JDK 8
   id:              jdk
   version_pattern: "8\\.[\\d]+\\.[\\d]+"
+  cpe_pattern:     "update[\\d]+"
   uses:            docker://ghcr.io/paketo-buildpacks/actions/adoptium-dependency:main
   with:
     implementation: hotspot
