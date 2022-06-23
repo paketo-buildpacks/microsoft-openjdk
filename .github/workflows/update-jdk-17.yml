@@ -5,6 +5,7 @@ name: Update JDK 17
     workflow_dispatch: {}
 jobs:
     update:
+        if: github.repository == 'paketo-buildpacks/microsoft-openjdk'
         name: Update Buildpack Dependency
         runs-on:
             - ubuntu-latest

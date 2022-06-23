@@ -10,6 +10,7 @@ name: Update Pipeline
     workflow_dispatch: {}
 jobs:
     update:
+        if: github.repository == 'paketo-buildpacks/microsoft-openjdk'
         name: Update Pipeline
         runs-on:
             - ubuntu-latest
