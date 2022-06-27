@@ -1,6 +1,6 @@
 # `gcr.io/paketo-buildpacks/microsoft-openjdk`
 
-The Paketo Microsoft OpenJDK Buildpack is a Cloud Native Buildpack that provides the Microsoft OpenJDK implementations of JREs and JDKs.
+The Paketo Microsoft OpenJDK Buildpack is a Cloud Native Buildpack that provides the Microsoft OpenJDK implementations of it's JDKs.
 
 This buildpack is designed to work in collaboration with other buildpacks which request contributions of JREs and JDKs.
 
