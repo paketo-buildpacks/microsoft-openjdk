@@ -157,9 +157,9 @@ api = "0.7"
     id = "jdk"
     name = "Microsoft OpenJDK"
     purl = "pkg:generic/microsoft/openjdk@11.0.16"
-    sha256 = "182bec8eb7d16804cc8c3555ab8f81b5f070b351f35946b2346cded0d5d9d56d"
+    sha256 = "cddd3cfd13a3f0765e076727a36948c7c2d964ddf969b8d33d7dd7ee621cd733"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-11.0.16-linux-x64.tar.gz"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-11.0.16.1-linux-x64.tar.gz"
     version = "11.0.16"
 
     [[metadata.dependencies.licenses]]
