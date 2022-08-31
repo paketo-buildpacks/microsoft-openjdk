@@ -19,7 +19,7 @@ api = "0.7"
   homepage = "https://github.com/paketo-buildpacks/microsoft-openjdk"
   id = "paketo-buildpacks/microsoft-openjdk"
   keywords = ["java", "jvm", "jre", "jdk"]
-  name = "Paketo Microsoft OpenJDK Buildpack"
+  name = "Paketo Buildpack for Microsoft OpenJDK"
   sbom-formats = ["application/vnd.cyclonedx+json", "application/vnd.syft+json"]
   version = "{{.version}}"
 
