@@ -1,4 +1,4 @@
-module github.com/paketo-buildpacks/microsoft-openjdk/v2
+module github.com/paketo-buildpacks/microsoft-openjdk/v3
 
 go 1.18
 
