@@ -153,14 +153,14 @@ api = "0.7"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jdk:11.0.19:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jdk:11.0.20:*:*:*:*:*:*:*"]
     id = "jdk"
     name = "Microsoft OpenJDK"
-    purl = "pkg:generic/microsoft/openjdk@11.0.19"
-    sha256 = "f4780a350756cfb464fa19c8865c574a00a196808b32f85722d02ab08e1a0b7d"
+    purl = "pkg:generic/microsoft/openjdk@11.0.20"
+    sha256 = "04327bea8b49ed9186b9b524e3373ff1c9ab43e6b124c089d70041ceb643d449"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-linux-x64.tar.gz"
-    version = "11.0.19"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-linux-x64.tar.gz"
+    version = "11.0.20"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
