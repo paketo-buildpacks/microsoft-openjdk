@@ -45,3 +45,11 @@ dependencies:
     distro:  microsoft
     type:    jdk
     version: "17"
+- name:            JDK 21
+  id:              jdk
+  version_pattern: "21\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/foojay-dependency:main
+  with:
+    distro:  microsoft
+    type:    jdk
+    version: "21"
