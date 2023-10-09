@@ -180,6 +180,20 @@ api = "0.7"
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
+  [[metadata.dependencies]]
+    cpes = ["cpe:2.3:a:oracle:jdk:21.0.0:*:*:*:*:*:*:*"]
+    id = "jdk"
+    name = "Microsoft OpenJDK"
+    purl = "pkg:generic/microsoft/openjdk@21.0.0"
+    sha256 = "01ebc38576660b61cc45fdadb7f1cc59278d0284ef999c98ed8bc55c8946cbf4"
+    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-21.0.0-linux-x64.tar.gz"
+    version = "21.0.0"
+
+    [[metadata.dependencies.licenses]]
+      type = "GPL-2.0 WITH Classpath-exception-2.0"
+      uri = "https://openjdk.java.net/legal/gplv2+ce.html"
+
 [[stacks]]
   id = "io.buildpacks.stacks.bionic"
 
