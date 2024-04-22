@@ -155,42 +155,42 @@ api = "0.7"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jdk:11.0.22:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jdk:11.0.23:*:*:*:*:*:*:*"]
     id = "jdk"
     name = "Microsoft OpenJDK"
-    purl = "pkg:generic/microsoft/openjdk@11.0.22"
-    sha256 = "2737d76f28f5697b5a08b39791bca90b3eb95fa79de8231ebea53152206cf6b6"
+    purl = "pkg:generic/microsoft/openjdk@11.0.23"
+    sha256 = "be22268ac403112dc3fa785e5d8ae92e16a657e1d95f0bf21a2705e5420038b7"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-11.0.22-linux-x64.tar.gz"
-    version = "11.0.22"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-linux-x64.tar.gz"
+    version = "11.0.23"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jdk:17.0.10:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jdk:17.0.11:*:*:*:*:*:*:*"]
     id = "jdk"
     name = "Microsoft OpenJDK"
-    purl = "pkg:generic/microsoft/openjdk@17.0.10"
-    sha256 = "dfa618c1f962b7a7a27b09c53c049628b172543f29bff15fd25fa0eb0476c01b"
+    purl = "pkg:generic/microsoft/openjdk@17.0.11"
+    sha256 = "4e2e95cda3abbe69e4fa85d7c4a9be7e6257add463c3eb7c6e78d777288c5698"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-17.0.10-linux-x64.tar.gz"
-    version = "17.0.10"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-17.0.11-linux-x64.tar.gz"
+    version = "17.0.11"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jdk:21.0.2:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jdk:21.0.3:*:*:*:*:*:*:*"]
     id = "jdk"
     name = "Microsoft OpenJDK"
-    purl = "pkg:generic/microsoft/openjdk@21.0.2"
-    sha256 = "758bc27957c5e4b1d06c80c5efbb0ffcb621e43a66486a58e9fd704b11517dca"
+    purl = "pkg:generic/microsoft/openjdk@21.0.3"
+    sha256 = "b535a58db80aeb5cc0d5e85ae6cb3f621d7f269ca1b36832f1aed3842cede4f4"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-21.0.2-linux-x64.tar.gz"
-    version = "21.0.2"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-21.0.3-linux-x64.tar.gz"
+    version = "21.0.3"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
