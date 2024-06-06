@@ -28,7 +28,7 @@ api = "0.7"
     uri = "https://github.com/paketo-buildpacks/microsoft-openjdk/blob/main/LICENSE"
 
 [metadata]
-  include-files = ["LICENSE", "NOTICE", "README.md", "bin/build", "bin/detect", "bin/helper", "bin/main", "buildpack.toml"]
+  include-files = ["LICENSE", "NOTICE", "README.md", "linux/amd64/bin/build", "linux/amd64/bin/detect", "linux/amd64/bin/main", "linux/amd64/bin/helper", "linux/arm64/bin/build", "linux/arm64/bin/detect", "linux/arm64/bin/main", "linux/arm64/bin/helper", "buildpack.toml"]
   pre-package = "scripts/build.sh"
 
   [[metadata.configurations]]
@@ -142,11 +142,11 @@ api = "0.7"
     cpes = ["cpe:2.3:a:oracle:jdk:1.8.0:update412:*:*:*:*:*:*:*"]
     id = "jdk"
     name = "Adoptium JDK"
-    purl = "pkg:generic/adoptium/temurin@8.0.412"
+    purl = "pkg:generic/adoptium/temurin@8.0.412?arch=amd64"
     sha256 = "b9884a96f78543276a6399c3eb8c2fd8a80e6b432ea50e87d3d12d495d1d2808"
     source = "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk-sources_8u412b08.tar.gz"
     source-sha256 = "3360d7e9a16f85b2248ea09cbd9174db00ec473d7a4a5ed4931a635b062875f2"
-    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
+    stacks = ["*"]
     uri = "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u412b08.tar.gz"
     version = "8.0.412"
 
@@ -158,9 +158,9 @@ api = "0.7"
     cpes = ["cpe:2.3:a:oracle:jdk:11.0.23:*:*:*:*:*:*:*"]
     id = "jdk"
     name = "Microsoft OpenJDK"
-    purl = "pkg:generic/microsoft/openjdk@11.0.23"
+    purl = "pkg:generic/microsoft/openjdk@11.0.23?arch=amd64"
     sha256 = "be22268ac403112dc3fa785e5d8ae92e16a657e1d95f0bf21a2705e5420038b7"
-    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
+    stacks = ["*"]
     uri = "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-linux-x64.tar.gz"
     version = "11.0.23"
 
@@ -172,9 +172,9 @@ api = "0.7"
     cpes = ["cpe:2.3:a:oracle:jdk:17.0.11:*:*:*:*:*:*:*"]
     id = "jdk"
     name = "Microsoft OpenJDK"
-    purl = "pkg:generic/microsoft/openjdk@17.0.11"
+    purl = "pkg:generic/microsoft/openjdk@17.0.11?arch=amd64"
     sha256 = "4e2e95cda3abbe69e4fa85d7c4a9be7e6257add463c3eb7c6e78d777288c5698"
-    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
+    stacks = ["*"]
     uri = "https://aka.ms/download-jdk/microsoft-jdk-17.0.11-linux-x64.tar.gz"
     version = "17.0.11"
 
@@ -186,9 +186,9 @@ api = "0.7"
     cpes = ["cpe:2.3:a:oracle:jdk:21.0.3:*:*:*:*:*:*:*"]
     id = "jdk"
     name = "Microsoft OpenJDK"
-    purl = "pkg:generic/microsoft/openjdk@21.0.3"
+    purl = "pkg:generic/microsoft/openjdk@21.0.3?arch=amd64"
     sha256 = "b535a58db80aeb5cc0d5e85ae6cb3f621d7f269ca1b36832f1aed3842cede4f4"
-    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
+    stacks = ["*"]
     uri = "https://aka.ms/download-jdk/microsoft-jdk-21.0.3-linux-x64.tar.gz"
     version = "21.0.3"
 
@@ -196,11 +196,72 @@ api = "0.7"
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
-[[stacks]]
-  id = "io.buildpacks.stacks.bionic"
+  [[metadata.dependencies]]
+    cpes = ["cpe:2.3:a:oracle:jdk:1.8.0:update412:*:*:*:*:*:*"]
+    id = "jdk"
+    name = "Adoptium JDK"
+    purl = "pkg:generic/adoptium-jdk@8.0.402?arch=arm64"
+    sha256 = "3504d748a93f23cac8c060bd33231bd51e90dcb620f38dadc6239b6cd2a5011c"
+    source = "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk-sources_8u412b08.tar.gz"
+    source-sha256 = "3360d7e9a16f85b2248ea09cbd9174db00ec473d7a4a5ed4931a635b062875f2"
+    stacks = ["*"]
+    uri = "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk_aarch64_linux_hotspot_8u412b08.tar.gz"
+    version = "8.0.412"
 
-[[stacks]]
-  id = "io.paketo.stacks.tiny"
+    [[metadata.dependencies.licenses]]
+      type = "GPL-2.0 WITH Classpath-exception-2.0"
+      uri = "https://openjdk.java.net/legal/gplv2+ce.html"
+
+  [[metadata.dependencies]]
+    cpes = ["cpe:2.3:a:oracle:jdk:11.0.23:*:*:*:*:*:*:*"]
+    id = "jdk"
+    name = "Microsoft OpenJDK"
+    purl = "pkg:generic/microsoft/openjdk@11.0.23?arch=arm64"
+    sha256 = "ef084d823f15883884ae89a588b6a5907dc411e5a8a2d8cc9e1737e014e0c343"
+    stacks = ["*"]
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-linux-aarch64.tar.gz"
+    version = "11.0.23"
+
+    [[metadata.dependencies.licenses]]
+      type = "GPL-2.0 WITH Classpath-exception-2.0"
+      uri = "https://openjdk.java.net/legal/gplv2+ce.html"
+
+  [[metadata.dependencies]]
+    cpes = ["cpe:2.3:a:oracle:jdk:17.0.11:*:*:*:*:*:*:*"]
+    id = "jdk"
+    name = "Microsoft OpenJDK"
+    purl = "pkg:generic/microsoft/openjdk@17.0.11?arch=arm64"
+    sha256 = "f202e28dd4f3a9349bb8a3403fcaf58d3b71f6284d0e2465453cb45936e9e849"
+    stacks = ["*"]
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-17.0.11-linux-aarch64.tar.gz"
+    version = "17.0.11"
+
+    [[metadata.dependencies.licenses]]
+      type = "GPL-2.0 WITH Classpath-exception-2.0"
+      uri = "https://openjdk.java.net/legal/gplv2+ce.html"
+
+  [[metadata.dependencies]]
+    cpes = ["cpe:2.3:a:oracle:jdk:21.0.3:*:*:*:*:*:*:*"]
+    id = "jdk"
+    name = "Microsoft OpenJDK"
+    purl = "pkg:generic/microsoft/openjdk@21.0.3?arch=arm64"
+    sha256 = "cd520f59c0e0dbad7c556777ea887fff24c12a3cf7ce9269437ce901dea27b46"
+    stacks = ["*"]
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-21.0.3-linux-aarch64.tar.gz"
+    version = "21.0.3"
+
+    [[metadata.dependencies.licenses]]
+      type = "GPL-2.0 WITH Classpath-exception-2.0"
+      uri = "https://openjdk.java.net/legal/gplv2+ce.html"
+
 
 [[stacks]]
   id = "*"
+
+[[targets]]
+  arch = "amd64"
+  os = "linux"
+
+[[targets]]
+  arch = "arm64"
+  os = "linux"
