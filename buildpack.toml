@@ -254,7 +254,6 @@ api = "0.7"
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
-
 [[stacks]]
   id = "*"
 
