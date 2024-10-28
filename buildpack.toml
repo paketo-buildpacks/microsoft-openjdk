@@ -139,116 +139,116 @@ api = "0.7"
     name = "JAVA_TOOL_OPTIONS"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jdk:1.8.0:update422:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jdk:1.8.0:update432:*:*:*:*:*:*:*"]
     id = "jdk"
     name = "Adoptium JDK"
-    purl = "pkg:generic/adoptium/temurin@8.0.422?arch=amd64"
-    sha256 = "4c6056f6167fae73ace7c3080b78940be5c87d54f5b08894b3517eed1cbb2c06"
-    source = "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jdk-sources_8u422b05.tar.gz"
-    source-sha256 = "ed95a098f1036b1300d6a6470f77b3445c02d2994e4d6ef8ef991183129cda80"
+    purl = "pkg:generic/adoptium/temurin@8.0.432?arch=amd64"
+    sha256 = "abaaa90deadf51bd28921453baf2992b3dff6171bb7142f5bdd14ef269f7b245"
+    source = "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jdk-sources_8u432b06.tar.gz"
+    source-sha256 = "35de71e4352e72bfaec591642819cd3d814519a047dfefbc3b08255309e99d3e"
     stacks = ["*"]
-    uri = "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jdk_x64_linux_hotspot_8u422b05.tar.gz"
-    version = "8.0.422"
+    uri = "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jdk_x64_linux_hotspot_8u432b06.tar.gz"
+    version = "8.0.432"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jdk:11.0.24:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jdk:11.0.25:*:*:*:*:*:*:*"]
     id = "jdk"
     name = "Microsoft OpenJDK"
-    purl = "pkg:generic/microsoft/openjdk@11.0.24?arch=amd64"
-    sha256 = "72da1a4df093850c7535b23f74c99825da7305542843567181fb03eba7b025d2"
+    purl = "pkg:generic/microsoft/openjdk@11.0.25?arch=amd64"
+    sha256 = "930b261dfc293f2548272b38b0a6646e042d9dc0d112b4ef4d915c8a508a5575"
     stacks = ["*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-11.0.24-linux-x64.tar.gz"
-    version = "11.0.24"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-11.0.25-linux-x64.tar.gz"
+    version = "11.0.25"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jdk:17.0.12:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jdk:17.0.13:*:*:*:*:*:*:*"]
     id = "jdk"
     name = "Microsoft OpenJDK"
-    purl = "pkg:generic/microsoft/openjdk@17.0.12?arch=amd64"
-    sha256 = "243930f67f431d01b278ab62739db07763d612837894879471a8940d2512f761"
+    purl = "pkg:generic/microsoft/openjdk@17.0.13?arch=amd64"
+    sha256 = "0af769656c48eb7ed35a5c7e14bef23f42f1438e1dc05090eb26d6d3cdf88686"
     stacks = ["*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-17.0.12-linux-x64.tar.gz"
-    version = "17.0.12"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-17.0.13-linux-x64.tar.gz"
+    version = "17.0.13"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jdk:21.0.4:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jdk:21.0.5:*:*:*:*:*:*:*"]
     id = "jdk"
     name = "Microsoft OpenJDK"
-    purl = "pkg:generic/microsoft/openjdk@21.0.4?arch=amd64"
-    sha256 = "7f7c131845a83dea92709b48160af7ac6c58c4962266ff828dc0b897179136c5"
+    purl = "pkg:generic/microsoft/openjdk@21.0.5?arch=amd64"
+    sha256 = "0d42a80dbc92f2f112e6db3b4b9bd278c0776a73b6050812e720230813487ebd"
     stacks = ["*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-21.0.4-linux-x64.tar.gz"
-    version = "21.0.4"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-21.0.5-linux-x64.tar.gz"
+    version = "21.0.5"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jdk:1.8.0:update422:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jdk:1.8.0:update432:*:*:*:*:*:*"]
     id = "jdk"
     name = "Adoptium JDK"
-    purl = "pkg:generic/adoptium-jdk@8.0.422?arch=arm64"
-    sha256 = "af98a839ec238106078bd360af9e405dc6665c05ee837178ed13b92193681923"
-    source = "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jdk-sources_8u422b05.tar.gz"
-    source-sha256 = "ed95a098f1036b1300d6a6470f77b3445c02d2994e4d6ef8ef991183129cda80"
+    purl = "pkg:generic/adoptium-jdk@8.0.432?arch=arm64"
+    sha256 = "383caabc20428e9500f2e07965317ed4387a0e336104483e29a9e06eeffbf26b"
+    source = "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jdk-sources_8u432b06.tar.gz"
+    source-sha256 = "35de71e4352e72bfaec591642819cd3d814519a047dfefbc3b08255309e99d3e"
     stacks = ["*"]
-    uri = "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jdk_aarch64_linux_hotspot_8u422b05.tar.gz"
-    version = "8.0.422"
+    uri = "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jdk_aarch64_linux_hotspot_8u432b06.tar.gz"
+    version = "8.0.432"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jdk:11.0.24:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jdk:11.0.25:*:*:*:*:*:*:*"]
     id = "jdk"
     name = "Microsoft OpenJDK"
-    purl = "pkg:generic/microsoft/openjdk@11.0.24?arch=arm64"
-    sha256 = "6c6919c1c73701e189e191a1f78abe0c1565020cb240d45fc835dc1b4cb11599"
+    purl = "pkg:generic/microsoft/openjdk@11.0.25?arch=arm64"
+    sha256 = "a0bac052e41d483e945ca88b263252bb32e5dd24c122f85ad3177f1fad7281ae"
     stacks = ["*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-11.0.24-linux-aarch64.tar.gz"
-    version = "11.0.24"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-11.0.25-linux-aarch64.tar.gz"
+    version = "11.0.25"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jdk:17.0.12:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jdk:17.0.13:*:*:*:*:*:*:*"]
     id = "jdk"
     name = "Microsoft OpenJDK"
-    purl = "pkg:generic/microsoft/openjdk@17.0.12?arch=arm64"
-    sha256 = "bad13167e8448fd5392ce703d96227a5b26d3aa2f2f2918fe2ceddbaba1f98a2"
+    purl = "pkg:generic/microsoft/openjdk@17.0.13?arch=arm64"
+    sha256 = "859c993dff29f87e49ce96ac01eb338a8a51ac75a49e841ac74160a1217f7489"
     stacks = ["*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-17.0.12-linux-aarch64.tar.gz"
-    version = "17.0.12"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-17.0.13-linux-aarch64.tar.gz"
+    version = "17.0.13"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jdk:21.0.4:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jdk:21.0.5:*:*:*:*:*:*:*"]
     id = "jdk"
     name = "Microsoft OpenJDK"
-    purl = "pkg:generic/microsoft/openjdk@21.0.4?arch=arm64"
-    sha256 = "7ef485745171fe6d50f14e3eaee3ec9fe7da39b8defe18f536b1476349071dfb"
+    purl = "pkg:generic/microsoft/openjdk@21.0.5?arch=arm64"
+    sha256 = "356844fe544085b00cd73935e0c7a4c534f286799728fa6d6e996d1cb8b1a682"
     stacks = ["*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-21.0.4-linux-aarch64.tar.gz"
-    version = "21.0.4"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-21.0.5-linux-aarch64.tar.gz"
+    version = "21.0.5"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
