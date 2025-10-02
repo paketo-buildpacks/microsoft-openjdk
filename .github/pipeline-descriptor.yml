@@ -53,6 +53,14 @@ dependencies:
     distro:  microsoft
     type:    jdk
     version: "21"
+- name:            JDK 25
+  id:              jdk
+  version_pattern: "25\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/foojay-dependency:main
+  with:
+    distro:  microsoft
+    type:    jdk
+    version: "25"
 
 # ARM64
 - name:            JDK 8 ARM64
@@ -91,4 +99,13 @@ dependencies:
     distro:  microsoft
     type:    jdk
     version: "21"
+    arch:    "arm64"
+- name:            JDK 25 ARM64
+  id:              jdk
+  version_pattern: "25\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/foojay-dependency:main
+  with:
+    distro:  microsoft
+    type:    jdk
+    version: "25"
     arch:    "arm64"
