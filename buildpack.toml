@@ -245,9 +245,9 @@ api = "0.7"
     id = "jdk"
     name = "Microsoft OpenJDK"
     purl = "pkg:generic/microsoft/openjdk@17.0.20?arch=arm64"
-    sha256 = "b35bfbce381a7968a68b88ac828bedff36814970355f371fc69c42e2b9ab1a67"
+    sha256 = "80a60422e032418ed25c503482b0cb1da82e0e05179a99500142993b56e148f1"
     stacks = ["*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-17.0.20-linux-aarch64.tar.gz"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-17.0.20.1-linux-aarch64.tar.gz"
     version = "17.0.20"
 
     [[metadata.dependencies.licenses]]
