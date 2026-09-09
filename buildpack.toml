@@ -273,9 +273,9 @@ api = "0.7"
     id = "jdk"
     name = "Microsoft OpenJDK"
     purl = "pkg:generic/microsoft/openjdk@25.0.4?arch=arm64"
-    sha256 = "b74eaf3ce160f2c4319a601db08f5ed43101cfac6d66242854e261203edf0318"
+    sha256 = "7c9eb1828d479dc9f546ba918a4c98593462bdb03fee404f9a63611ffffe546c"
     stacks = ["*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-25.0.4-linux-aarch64.tar.gz"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-25.0.4.1-linux-aarch64.tar.gz"
     version = "25.0.4"
 
     [[metadata.dependencies.licenses]]
