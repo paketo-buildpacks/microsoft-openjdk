@@ -259,9 +259,9 @@ api = "0.7"
     id = "jdk"
     name = "Microsoft OpenJDK"
     purl = "pkg:generic/microsoft/openjdk@21.0.12?arch=arm64"
-    sha256 = "c61cadbc8ad4f950131dc260f0cdfd8d4d1f200fb16f8ac6a2611f17a77ab301"
+    sha256 = "7c36b28cc6371e04b67bcd46722d4a5a8d1bf35a5e049befccec2039f508743d"
     stacks = ["*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-21.0.12-linux-aarch64.tar.gz"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-21.0.12.1-linux-aarch64.tar.gz"
     version = "21.0.12"
 
     [[metadata.dependencies.licenses]]
