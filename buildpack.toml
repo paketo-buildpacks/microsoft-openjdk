@@ -173,9 +173,9 @@ api = "0.7"
     id = "jdk"
     name = "Microsoft OpenJDK"
     purl = "pkg:generic/microsoft/openjdk@17.0.21?arch=amd64"
-    sha256 = "f7230e6d76ccfd62ceb11687a24e93d1f63d236e6a5fdeb8d923700075de42f8"
+    sha256 = "9143307aa5869cede4cbe09aac477256f08d8607e5c760dc040ef37ef2c2f5e7"
     stacks = ["*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-17.0.21.0.2-linux-x64.tar.gz"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-17.0.21.1-linux-x64.tar.gz"
     version = "17.0.21"
 
     [[metadata.dependencies.licenses]]
@@ -187,9 +187,9 @@ api = "0.7"
     id = "jdk"
     name = "Microsoft OpenJDK"
     purl = "pkg:generic/microsoft/openjdk@21.0.13?arch=amd64"
-    sha256 = "5bf17d27de3fe9d102981236cdea68482e3b5ef68a44ad21c6439b45d7d34da2"
+    sha256 = "103575ed91ff84647f9f5630b94bc5d172faf95432633e77d54343f13bbd0362"
     stacks = ["*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-21.0.13.0.2-linux-x64.tar.gz"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-21.0.13.1-linux-x64.tar.gz"
     version = "21.0.13"
 
     [[metadata.dependencies.licenses]]
@@ -201,9 +201,9 @@ api = "0.7"
     id = "jdk"
     name = "Microsoft OpenJDK"
     purl = "pkg:generic/microsoft/openjdk@25.0.5?arch=amd64"
-    sha256 = "173e8e4286289335b422b591c88a1f553fc44c701a876a7c8dd29037a598fc14"
+    sha256 = "5e63672ada97af95999c9552d6607fd39d3bb9c97c993d4da7d6b3298a448108"
     stacks = ["*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-25.0.5.0.2-linux-x64.tar.gz"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-25.0.5.1-linux-x64.tar.gz"
     version = "25.0.5"
 
     [[metadata.dependencies.licenses]]
@@ -245,9 +245,9 @@ api = "0.7"
     id = "jdk"
     name = "Microsoft OpenJDK"
     purl = "pkg:generic/microsoft/openjdk@17.0.21?arch=arm64"
-    sha256 = "fc80cf268662b058a7b360fb118f9a729987932d1ab8d72c5813e86df89c6034"
+    sha256 = "92427f17364dd508ddcd604dfa2a86fc9ec8c8d09364323ca7c15f63c5f6694a"
     stacks = ["*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-17.0.21.0.2-linux-aarch64.tar.gz"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-17.0.21.1-linux-aarch64.tar.gz"
     version = "17.0.21"
 
     [[metadata.dependencies.licenses]]
@@ -259,9 +259,9 @@ api = "0.7"
     id = "jdk"
     name = "Microsoft OpenJDK"
     purl = "pkg:generic/microsoft/openjdk@21.0.13?arch=arm64"
-    sha256 = "0a1dcbaa8b9abcd6adccaf3fe324f297e9f08c0e749b8364ae27e754f65fab3c"
+    sha256 = "f85eb101982ca919acc17d779a80e89c0d3adc3f07b61860d31cdf26303ee2be"
     stacks = ["*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-21.0.13.0.2-linux-aarch64.tar.gz"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-21.0.13.1-linux-aarch64.tar.gz"
     version = "21.0.13"
 
     [[metadata.dependencies.licenses]]
@@ -273,9 +273,9 @@ api = "0.7"
     id = "jdk"
     name = "Microsoft OpenJDK"
     purl = "pkg:generic/microsoft/openjdk@25.0.5?arch=arm64"
-    sha256 = "c0551fe6c3ea5b3244b74a275562bff128ae96563b0e13303597ccba72d15fa5"
+    sha256 = "b201ec22ca3a4333189ebbb3aef65362136961b12f96544559661f7962851c19"
     stacks = ["*"]
-    uri = "https://aka.ms/download-jdk/microsoft-jdk-25.0.5.0.2-linux-aarch64.tar.gz"
+    uri = "https://aka.ms/download-jdk/microsoft-jdk-25.0.5.1-linux-aarch64.tar.gz"
     version = "25.0.5"
 
     [[metadata.dependencies.licenses]]
